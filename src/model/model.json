@@ -1,0 +1,39 @@
+{
+  "model": "vit_base_patch14_dinov2.lvd142m",
+  "img_size": 336,
+  "classes": [
+    "actinic_keratosis",
+    "bacterial",
+    "basal_cell_carcinoma",
+    "benign_keratosis",
+    "bites_infestation",
+    "dermatitis",
+    "dermatofibroma",
+    "exanthem_drug_rash",
+    "folliculitis_acneiform",
+    "fungal",
+    "herpes",
+    "melanoma",
+    "nevus",
+    "papulosquamous",
+    "purpura_vasculitis",
+    "skin_tag",
+    "squamous_cell_carcinoma",
+    "urticaria",
+    "vascular_lesion",
+    "wart_molluscum"
+  ],
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "tau": -1.0,
+  "input": "RGB, resize kratší strany na img_size (bicubic), center crop, /255, (x - mean) / std, NCHW float32",
+  "output": "logits; pravděpodobnosti = softmax"
+}

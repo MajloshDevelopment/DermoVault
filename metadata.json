@@ -1,0 +1,6 @@
+{
+  "name": "DermaVault AI - Encrypted Skin Health & Routine Analysis",
+  "description": "Offline-first encrypted skin health and melanoma risk analyzer with high-thinking clinical AI, personalized routine recommendations, and longitudinal mole tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
